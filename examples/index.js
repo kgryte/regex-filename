@@ -29,8 +29,6 @@ console.log( parts );
 	]
 */
 
-
-
 parts = re.win32.exec( 'C:\\foo\\bar\\home.html' );
 console.log( parts );
 /*

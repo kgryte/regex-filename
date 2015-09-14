@@ -64,7 +64,7 @@ parts = re.exec( 'C:\\foo\\bar\\index.js' );
 
 ## Notes
 
-*	 The exported [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is [platform](https://github.com/kgryte/node-check-if-windows)-dependent.
+*	 The main exported [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) is [platform](https://github.com/kgryte/node-check-if-windows)-dependent.
 
 
 
@@ -99,8 +99,6 @@ console.log( parts );
 		'.html'
 	]
 */
-
-
 
 parts = re.win32.exec( 'C:\\foo\\bar\\home.html' );
 console.log( parts );
