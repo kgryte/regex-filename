@@ -1,6 +1,6 @@
 {
   "name": "regex-filename",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Regular expression to split a filename.",
   "author": {
     "name": "Athan Reines",
